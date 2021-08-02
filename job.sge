@@ -1,0 +1,25 @@
+#!/bin/bash
+# Standard output and error:
+#SBATCH -o ./examplejob.out
+#SBATCH -e ./examplejob.err
+#SBATCH -D ./
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=24
+#SBATCH -J TBG_31_RS7_FLOQUET
+#SBATCH --mail-type=none
+#SBATCH --partition=batch
+#SBATCH --time=72:00:00
+
+module purge
+module load gcc/8.4.0
+module load openmpi/4.0.5
+module load intel-mkl/2019.3.199.lua
+module load cmake
+
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+cmake ../TBG_LMC
+cmake --build .
+srun ./TBG_LMC.out > log
+

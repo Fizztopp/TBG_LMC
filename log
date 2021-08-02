@@ -1,0 +1,122 @@
+
+	Program running on 2 processors.
+THETA: 1.05012
+THETA_RESCALED: 1.05012
+Lambda: 1
+A0[0] = 116.24 A0[1] = 67.1111
+A1[0] = -4.26326e-14 A1[1] = 134.222
+Unit_Cell.dat --> 11908 points
+high-symmetry path --> 2 points
+high-symmetry path (full) --> 288 points
+COUNT: 0
+Calculate truncated matrices for taylored Hamiltonian (PATH)
+Start Calc_List() --------------------------------------------------------------------------------------------------------
+Start set_Hk_DOWN_LIST() ---------------------------------------------------------------------------------------------------
+set_Hk_DOWN_LIST(): Start diagonalization ----------------------------------------------------------------------------------
+k_MAT #0 stored!
+Start caluclation of equilibrium bands
+Start caluclation of effective Floquet bands along k-path (downfolded)
+Start caluclation of Floqeut bands along k-path (truncated)
+
+k = 0
+time step: 0
+time step: 1
+time step: 2
+time step: 3
+time step: 4
+time step: 5
+time step: 6
+time step: 7
+time step: 8
+time step: 9
+time step: 10
+time step: 11
+time step: 12
+time step: 13
+time step: 14
+time step: 15
+time step: 16
+time step: 17
+time step: 18
+time step: 19
+time step: 20
+time step: 21
+time step: 22
+time step: 23
+time step: 24
+time step: 25
+time step: 26
+time step: 27
+time step: 28
+time step: 29
+time step: 30
+time step: 31
+time step: 32
+time step: 33
+time step: 34
+time step: 35
+time step: 36
+time step: 37
+time step: 38
+time step: 39
+time step: 40
+time step: 41
+time step: 42
+time step: 43
+time step: 44
+time step: 45
+time step: 46
+time step: 47
+time step: 48
+time step: 49
+time step: 50
+time step: 51
+time step: 52
+time step: 53
+time step: 54
+time step: 55
+time step: 56
+time step: 57
+time step: 58
+time step: 59
+time step: 60
+time step: 61
+time step: 62
+time step: 63
+time step: 64
+time step: 65
+time step: 66
+time step: 67
+time step: 68
+time step: 69
+time step: 70
+time step: 71
+time step: 72
+time step: 73
+time step: 74
+time step: 75
+time step: 76
+time step: 77
+time step: 78
+time step: 79
+time step: 80
+time step: 81
+time step: 82
+time step: 83
+time step: 84
+time step: 85
+time step: 86
+time step: 87
+time step: 88
+time step: 89
+time step: 90
+time step: 91
+time step: 92
+time step: 93
+time step: 94
+time step: 95
+time step: 96
+time step: 97
+time step: 98
+Total caluclation time (MPI): 85302.8 seconds
+Total caluclation time (OMP): 81414.3 seconds

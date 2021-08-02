@@ -1,0 +1,7 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /scratch/work/toppg1/TBG/TBG_LMC
+Consolidate compiler generated dependencies of target TBG_LMC.out
+[ 25%] Building CXX object CMakeFiles/TBG_LMC.out.dir/src/TBG_LMC.cpp.o
+[ 50%] Linking CXX executable TBG_LMC.out
+[100%] Built target TBG_LMC.out
