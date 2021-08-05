@@ -15,3 +15,5 @@ Manual to use the code:
 2) The main code conists three source files: TBG_LMC.cpp (main), StandardFunctions.cpp(standard mathematical operations), and Functions.cpp(project specific functions). Constants.h sets all model and simulation parameters.
    The truncation of the original Hamiltonian matrix is done by functions set_Hk_DOWN_LIST() and alc_List() from  StandardFunctions.cpp. Importantly, the systematic truncation is controlled via two parameters in Constants.h. dim_MAT defines the leading order of the truncated and stored matrices. dim_new can introduce a second truncation for reading matrices from disk to memory, which is convenient for convergence checks. 
    After truncation, different observables like density-of-states, linear optical conductivity, non-linear optical conductivity, quantum geometric tensor, Floquet bands can be calculated.
+
+3) File PLOTTING.py is an example plotting file that was used to create the output shown in Fig.5 of https://arxiv.org/abs/2103.04967.
