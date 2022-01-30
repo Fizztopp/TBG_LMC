@@ -20,4 +20,4 @@ Manual to use the code:
 
 4) job.sge is an example batch file to run the programm on the [TRITON cluster](https://scicomp.aalto.fi/triton/).
 
-4) File PLOTTING.py is an example plotting file that was used to create the output shown in Fig.5 of https://arxiv.org/abs/2103.04967.
+4) File PLOTTING.py is an example plotting file that was used to create the output shown in Fig.5 of https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.064306.
